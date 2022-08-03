@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed Aug  3 20:36:21 2022
+# Make data base, printed on Wed Aug  3 21:04:48 2022
 
 # Variables
 
@@ -19,8 +19,8 @@ make: *** No rule to make target `all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # automatic
- 
 ?D = $(patsubst %/,%,$(dir $?))
+ 
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
@@ -92,6 +92,7 @@ XPC_FLAGS = 0x0
 # default
 MAKE = $(MAKE_COMMAND)
 # default
+ 
 MAKECMDGOALS := all
 # environment
 SHLVL = 1
@@ -156,6 +157,7 @@ docassets = $(addprefix out/,$(wildcard doc/assets/*))
 # environment
 _CE_M = 
 # environment
+ 
 MAKELEVEL := 0
 # environment
 LANG = C
@@ -187,7 +189,6 @@ _CE_CONDA =
 # doc/stats.md (device 16777232, inode 21367662): could not be opened.
 # doc (device 16777232, inode 21367627): 16 files, no impossibilities.
 # doc/documentation.md (device 16777232, inode 21367645): could not be opened.
- 
 # doc/localization.md (device 16777232, inode 21367659): could not be opened.
 
 # 75 files, no impossibilities in 16 directories.
@@ -270,6 +271,7 @@ out/doc/api/editorInfo.html:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 
 # Not a target:
 out/doc/assets/style.css:
@@ -357,6 +359,7 @@ ensure_marked_is_installed:
 	fi
 	
 
+ 
 docs: ensure_marked_is_installed out/doc/api/api.html out/doc/api/changeset_library.html out/doc/api/editbar.html out/doc/api/editorInfo.html out/doc/api/embed_parameters.html out/doc/api/hooks_client-side.html out/doc/api/hooks_overview.html out/doc/api/hooks_server-side.html out/doc/api/http_api.html out/doc/api/pluginfw.html out/doc/api/toolbar.html out/doc/easysync/README.html out/doc/cookies.html out/doc/database.html out/doc/docker.html out/doc/documentation.html out/doc/index.html out/doc/localization.html out/doc/plugins.html out/doc/skins.html out/doc/stats.html out/doc/assets/style.css
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -411,7 +414,6 @@ out/doc/api/changeset_library.html:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Aug  3 20:36:21 2022
- 
+# Finished Make data base on Wed Aug  3 21:04:48 2022
 
  

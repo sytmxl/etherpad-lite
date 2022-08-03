@@ -152,8 +152,9 @@
    *    "ip": "",                             // <-- has to be an empty string
    *    "port" : "/somepath/etherpad.socket", // <-- path to a Unix socket
    */
-  "ip": "43.138.67.29",
-  "port": 9001,
+  // "ip": "43.138.67.29",
+  "ip": "0.0.0.0",
+  "port": 9000,
 
   /*
    * Option to hide/show the settings.json in admin page.
