@@ -1,0 +1,417 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+
+
+# Make data base, printed on Wed Aug  3 20:36:21 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# automatic
+ 
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/mxlsyt/github/etherpad-lite
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+MAVEN_HOME = /Users/mxlsyt/apache-maven-3.8.5
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 6)
+VERSION = $(shell node -e "console.log( require('./src/package.json').version )")
+# makefile (from `Makefile', line 2)
+outdoc_files = $(addprefix out/,$(doc_sources:.md=.html))
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/mxlsyt/opt/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/mxlsyt/apache-maven-3.8.5/bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.kFgTGkSH5O/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/mxlsyt/opt/anaconda3/bin/conda
+# environment
+SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS = /Users/mxlsyt/Library/WebKit/Databases
+# makefile (from `Makefile', line 1)
+doc_sources = $(wildcard doc/*/*.md) $(wildcard doc/*.md)
+# environment
+PWD = /Users/mxlsyt/github/etherpad-lite
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/mxlsyt
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/mxlsyt/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = mxlsyt
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = mxlsyt
+# makefile
+.DEFAULT_GOAL := ensure_marked_is_installed
+# makefile (from `Makefile', line 7)
+UNAME := Darwin
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/rh/y695rfws54n1f_4qb955_m300000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/mxlsyt/Library/Application Support/Code/1.69.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.19585796.19585802
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /Users/mxlsyt/opt/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 4)
+docassets = $(addprefix out/,$(wildcard doc/assets/*))
+# environment
+_CE_M = 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 45010
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=74/1024=7%, Rehash=0, Collisions=3/103=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# doc/docker.md (device 16777232, inode 21367644): could not be opened.
+# doc/database.md (device 16777232, inode 21367643): could not be opened.
+# . (device 16777232, inode 21367434): 29 files, no impossibilities.
+# doc/assets (device 16777232, inode 21367640): 3 files, no impossibilities.
+# doc/plugins.md (device 16777232, inode 21367660): could not be opened.
+# doc/images (device 16777232, inode 21367653): 6 files, no impossibilities.
+# doc/index.md (device 16777232, inode 21367658): could not be opened.
+# doc/cookies.md (device 16777232, inode 21367642): could not be opened.
+# doc/skins.md (device 16777232, inode 21367661): could not be opened.
+# doc/api (device 16777232, inode 21367628): 13 files, no impossibilities.
+# doc/template.html (device 16777232, inode 21367663): could not be opened.
+# doc/easysync (device 16777232, inode 21367646): 8 files, no impossibilities.
+# doc/stats.md (device 16777232, inode 21367662): could not be opened.
+# doc (device 16777232, inode 21367627): 16 files, no impossibilities.
+# doc/documentation.md (device 16777232, inode 21367645): could not be opened.
+ 
+# doc/localization.md (device 16777232, inode 21367659): could not be opened.
+
+# 75 files, no impossibilities in 16 directories.
+
+# Implicit Rules
+
+out/doc/assets/%: doc/assets/%
+#  commands to execute (from `Makefile', line 19):
+	mkdir -p $(@D)
+	cp $< $@
+	
+
+out/doc/%.html: doc/%.md
+#  commands to execute (from `Makefile', line 23):
+	mkdir -p $(@D)
+	node src/bin/doc/generate.js --format=html --template=doc/template.html $< > $@
+	sed -i '' 's/__VERSION__/${VERSION}/' $@
+	
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+out/doc/api/editbar.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/toolbar.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/cookies.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+out/doc/index.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/hooks_client-side.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-03 10:39:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+out/doc/api/editorInfo.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/assets/style.css:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/hooks_server-side.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/docker.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/pluginfw.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/api.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/plugins.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/embed_parameters.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/easysync/README.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 32):
+	rm -rf out/
+	
+
+# Not a target:
+out/doc/documentation.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/database.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ensure_marked_is_installed:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 10):
+	set -eu; \
+	hash npm; \
+	if [ $(shell npm list --prefix src/bin/doc >/dev/null 2>/dev/null; echo $$?) -ne "0" ]; then \
+	npm ci --prefix=src/bin/doc; \
+	fi
+	
+
+docs: ensure_marked_is_installed out/doc/api/api.html out/doc/api/changeset_library.html out/doc/api/editbar.html out/doc/api/editorInfo.html out/doc/api/embed_parameters.html out/doc/api/hooks_client-side.html out/doc/api/hooks_overview.html out/doc/api/hooks_server-side.html out/doc/api/http_api.html out/doc/api/pluginfw.html out/doc/api/toolbar.html out/doc/easysync/README.html out/doc/cookies.html out/doc/database.html out/doc/docker.html out/doc/documentation.html out/doc/index.html out/doc/localization.html out/doc/plugins.html out/doc/skins.html out/doc/stats.html out/doc/assets/style.css
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/skins.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/http_api.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/stats.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/localization.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/hooks_overview.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/doc/api/changeset_library.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=29/1024=3%, Rehash=0, Collisions=4/64=6%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Aug  3 20:36:21 2022
+ 
+
+ 

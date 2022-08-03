@@ -14,17 +14,17 @@ for ARG in "$@"; do
   fi
 done
 
-# Stop the script if it's started as root
-if [ "$(id -u)" -eq 0 ] && [ "$ignoreRoot" -eq 0 ]; then
-  cat <<EOF >&2
-You shouldn't start Etherpad as root!
-Please type 'Etherpad rocks my socks' (or restart with the '--root'
-argument) if you still want to start it as root:
-EOF
-  printf "> " >&2
-  read rocks
-  [ "$rocks" = "Etherpad rocks my socks" ] || fatal "Your input was incorrect"
-fi
+# # Stop the script if it's started as root
+# if [ "$(id -u)" -eq 0 ] && [ "$ignoreRoot" -eq 0 ]; then
+#   cat <<EOF >&2
+# You shouldn't start Etherpad as root!
+# Please type 'Etherpad rocks my socks' (or restart with the '--root'
+# argument) if you still want to start it as root:
+# EOF
+#   printf "> " >&2
+#   read rocks
+#   [ "$rocks" = "Etherpad rocks my socks" ] || fatal "Your input was incorrect"
+# fi
 
 # Prepare the environment
 src/bin/installDeps.sh "$@" || exit 1

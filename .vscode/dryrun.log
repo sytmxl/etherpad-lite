@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/mxlsyt/github/etherpad-lite'
+set -eu; \
+	hash npm; \
+	if [ 1 -ne "0" ]; then \
+		npm ci --prefix=src/bin/doc; \
+	fi
+ 
+make: Leaving directory `/Users/mxlsyt/github/etherpad-lite'
+ 
