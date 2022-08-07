@@ -314,7 +314,7 @@
    * it to null disables Abiword and will only allow plain text and HTML
    * import/exports.
    */
-  "abiword": null,
+  "abiword": "/usr/bin/abiword",
 
   /*
    * This is the absolute path to the soffice executable.
