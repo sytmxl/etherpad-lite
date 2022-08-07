@@ -359,7 +359,7 @@
    * The other effect will be that the logs will contain the real client's IP,
    * instead of the reverse proxy's IP.
    */
-  "trustProxy": false,
+  "trustProxy": true,
 
   /*
    * Settings controlling the session cookie issued by Etherpad.
@@ -498,23 +498,22 @@
    *          follow the section "secure your installation" in README.md
    */
 
-  /*
+  
   "users": {
     "admin": {
       // 1) "password" can be replaced with "hash" if you install ep_hash_auth
       // 2) please note that if password is null, the user will not be created
-      "password": "changeme1",
+      "password": "1",
       "is_admin": true
     },
     "user": {
       // 1) "password" can be replaced with "hash" if you install ep_hash_auth
       // 2) please note that if password is null, the user will not be created
-      "password": "changeme1",
+      "password": "1",
       "is_admin": false
     }
   },
-  */
-
+  
   /*
    * Restrict socket.io transport methods
    */

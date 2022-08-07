@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Wed Aug  3 21:04:48 2022
+# Make data base, printed on Sun Aug  7 23:54:28 2022
 
 # Variables
 
@@ -18,9 +18,9 @@ make: *** No rule to make target `all'.  Stop.
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
+ 
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
- 
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
@@ -92,7 +92,6 @@ XPC_FLAGS = 0x0
 # default
 MAKE = $(MAKE_COMMAND)
 # default
- 
 MAKECMDGOALS := all
 # environment
 SHLVL = 1
@@ -109,6 +108,7 @@ UNAME := Darwin
 # environment
 CONDA_SHLVL = 0
 # default
+ 
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
 # default
 .VARIABLES := 
@@ -157,7 +157,6 @@ docassets = $(addprefix out/,$(wildcard doc/assets/*))
 # environment
 _CE_M = 
 # environment
- 
 MAKELEVEL := 0
 # environment
 LANG = C
@@ -198,6 +197,7 @@ _CE_CONDA =
 out/doc/assets/%: doc/assets/%
 #  commands to execute (from `Makefile', line 19):
 	mkdir -p $(@D)
+ 
 	cp $< $@
 	
 
@@ -271,7 +271,6 @@ out/doc/api/editorInfo.html:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 
 # Not a target:
 out/doc/assets/style.css:
@@ -359,7 +358,6 @@ ensure_marked_is_installed:
 	fi
 	
 
- 
 docs: ensure_marked_is_installed out/doc/api/api.html out/doc/api/changeset_library.html out/doc/api/editbar.html out/doc/api/editorInfo.html out/doc/api/embed_parameters.html out/doc/api/hooks_client-side.html out/doc/api/hooks_overview.html out/doc/api/hooks_server-side.html out/doc/api/http_api.html out/doc/api/pluginfw.html out/doc/api/toolbar.html out/doc/easysync/README.html out/doc/cookies.html out/doc/database.html out/doc/docker.html out/doc/documentation.html out/doc/index.html out/doc/localization.html out/doc/plugins.html out/doc/skins.html out/doc/stats.html out/doc/assets/style.css
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -375,6 +373,7 @@ out/doc/skins.html:
 out/doc/api/http_api.html:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 # Not a target:
@@ -414,6 +413,6 @@ out/doc/api/changeset_library.html:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Aug  3 21:04:48 2022
+# Finished Make data base on Sun Aug  7 23:54:28 2022
 
  
