@@ -135,9 +135,11 @@ exports.restartServer = async () => {
     // marked with <meta name="referrer" content="no-referrer">
     // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
     // https://github.com/ether/etherpad-lite/pull/3636
-    res.header('Referrer-Policy', 'same-origin');
-
-    // send git version in the Server response header if exposeVersion is true.
+    var ref = req.headers.referer;
+    ref = ref + ""; // Make it a string so we can use regex
+    ref = ref.replace ( /(https?:\/\/.*?\.43\.138\.67\.29).*/,'$1');
+    res.header("Access-Control-Allow-Origin", "*");
+	  // send git version in the Server response header if exposeVersion is true.
     if (settings.exposeVersion) {
       res.header('Server', serverName);
     }
